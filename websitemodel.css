@@ -1,0 +1,121 @@
+body {
+    background-image: url('../images/banner.jpg');
+    margin: 0 0 0 0;
+    background-attachment: fixed
+}
+h1 {
+    color: white;
+    font-size:large;
+    font-style: normal;
+    font-family:sans-serif;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.icon1, .icon2, .icon3 {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+.icon_head {
+    display: inline-block;
+    cursor: pointer;
+}
+.change .icon1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 3px) ;
+    transform: rotate(-45deg) translate(-6px, 3px) ;
+}
+.change .icon2 {
+    opacity: 0;
+}
+.change .icon3 {
+    -webkit-transform: rotate(45deg) translate(-5px, 5px) ;
+    transform: rotate(45deg) translate(-5px, -5px) ;
+}
+div.combo {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+div.head{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.h2{font-style: normal;
+    font-size:large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+.main {
+    display: block;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 0.5cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image12{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.box {
+    width: 500px;
+    height:auto;
+    color: white;
+}
+.baseimage {
+    position: absolute;
+    margin-top: 200px;
+}
+.image1 {
+    position: relative;
+    margin-top: 270px;
+    margin-left: 240px;
+}
+.download {
+    position: relative;
+    text-align: center;
+    margin-left: 0px;
+    color: black;
+}
+.parent2 {
+    margin-left: 240px;
+    margin-top: 50px;
+}
+.image2 {
+    position: relative;
+    margin-top: 0px;
+}
+.download1 {
+    position: relative;
+    margin-left: 0px;
+    text-align: center;
+    color: black;
+}
+.sub1 {
+    display: block;
+    position: absolute;
+    top: 750px;
+    left: 800px;
+    color: black;
+}
+.sub2 {
+    display: block;
+    position: absolute;
+    top: 1150px;
+    left: 275px;
+    margin-right: 505px;
+    color: black;
+}
+icon_head:hover, button:hover, button1:hover, button2:hover, h2:hover {
+    transform: scale(1.2);
+}
